@@ -1,2 +1,1 @@
-# StreamSurvMA
-# StreamSurvMA
+The package provides an implementation of the cumulative estimating equation model averaging method (CEE), and the cumulative updated estimating equation model averaging method (CUEE), the renewable model averaging (Renew) method and its extension (ERenew) for survival analysis of stream data. The package includes a function that allows users to perform survival prediction for individual observations under stream datasets.
