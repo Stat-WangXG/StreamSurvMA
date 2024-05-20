@@ -7,7 +7,7 @@ Authors@R:
            family = "Li", 
            role=c("aut","cre"), 
            email = "mengyuli@mail.dlut.edu.cn")
-Description: The 'StreamSurvDataMA' package provides an implementation of
+Description: The 'StreamSurvMA' package provides an implementation of
     the cumulative estimating equation model averaging method (CEE),
     and the cumulative updated estimating equation model averaging method (CUEE),
     the renewable model averaging (Renew) method and its extension (ERenew)
