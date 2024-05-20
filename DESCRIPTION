@@ -3,10 +3,10 @@ Title: Survival Prediction with Online updating Model Averaging Approaches
     for Stream Data
 Version: 1.1.0.0
 Authors@R: 
-    person(given = "Mengyu", 
+    person(given = "My", 
            family = "Li", 
            role=c("aut","cre"), 
-           email = "mengyuli@mail.dlut.edu.cn")
+           email = "mylilucky@163.com")
 Description: The 'StreamSurvMA' package provides an implementation of
     the cumulative estimating equation model averaging method (CEE),
     and the cumulative updated estimating equation model averaging method (CUEE),
