@@ -1,0 +1,37 @@
+Package: StreamSurvMA
+Title: Survival Prediction with Online updating Model Averaging Approaches
+    for Stream Data
+Version: 1.1.0.0
+Authors@R: 
+    person(given = "Mengyu", 
+           family = "Li", 
+           role=c("aut","cre"), 
+           email = "mengyuli@mail.dlut.edu.cn")
+Description: The 'StreamSurvDataMA' package provides an implementation of
+    the cumulative estimating equation model averaging method (CEE),
+    and the cumulative updated estimating equation model averaging method (CUEE),
+    the renewable model averaging (Renew) method and its extension (ERenew)
+    for survival analysis of stream data. The package includes a function 
+    that allows users to perform survival prediction for individual observations
+    under stream datasets. The function utilizes an online-updating mechanism to 
+    dynamically adjust the weights of different submodels, ensuring that 
+    the predictions are adaptive to the evolving data stream. The running time
+    of the process is also calculated, providing users with insights into 
+    the computational efficiency of the method.
+    Additionally, the function enables users to obtain the parameter estimators
+    of each nested submodel, which are used in the averaging process. 
+    With 'StreamSurvMA', researchers and practitioners can efficiently 
+    analyze survival data in a streaming fashion, enabling real-time predictions
+    and decision-making in applications such as healthcare, insurance,
+    and risk management.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    stats,
+    survival
+
